@@ -1,0 +1,28 @@
+[package]
+name = "zinc-hal-lpc11xx"
+version = "0.0.1"
+authors = ["Vladimir Pouzanov <farcaller@gmail.com>"]
+description = "Zinc hal for NXP LPC11xx family of MCUs."
+license = "Apache-2.0"
+repository = "https://github.com/hackndev/zinc"
+keywords = ["zinc", "nxp", "lpc11xx", "hal"]
+
+[lib]
+name = "zinc_hal_lpc11xx"
+crate-type = ["rlib"]
+doc = true
+
+#[dependencies]
+#volatile_cell = "~ 1"
+
+[dependencies.volatile_cell]
+path = "../volatile_cell"
+
+[target.thumbv6m-none-eabi.dependencies]
+rust-libcore = "> 0.0.1"
+
+[target.thumbv7m-none-eabi.dependencies]
+rust-libcore = "> 0.0.1"
+
+[target.thumbv7em-none-eabi.dependencies]
+rust-libcore = "> 0.0.1"
