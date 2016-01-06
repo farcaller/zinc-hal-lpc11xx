@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `SYSCON_pdruncfg` struct in crate `zinc_hal_lpc11xx`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, SYSCON_pdruncfg">
+
+    <title>zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'><a href='../index.html'>zinc_hal_lpc11xx</a>::<wbr><a href='index.html'>ioregs</a></p><script>window.sidebarCurrent = {name: 'SYSCON_pdruncfg', ty: 'struct', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content struct">
+<h1 class='fqn'><span class='in-band'>Struct <a href='../index.html'>zinc_hal_lpc11xx</a>::<wbr><a href='index.html'>ioregs</a>::<wbr><a class='struct' href=''>SYSCON_pdruncfg</a></span><span class='out-of-band'><span id='render-detail'>
+            <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                [<span class='inner'>&#x2212;</span>]
+            </a>
+        </span><a id='src-20498' class='srclink' href='../../src/zinc_hal_lpc11xx/ioregs.rs.html#41851-41853' title='goto source code'>[src]</a></span></h1>
+<pre class='rust struct'>pub struct SYSCON_pdruncfg {
+    // some fields omitted
+}</pre><div class='docblock'><p>Register <code>PDRUNCFG</code>: Power-down configuration register</p>
+</div><h2 id='methods'>Methods</h2><h3 class='impl'><code>impl <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg'>SYSCON_pdruncfg</a></code></h3><div class='impl-items'><h4 id='method.get' class='method'><code>fn <a href='#method.get' class='fnname'>get</a>(&amp;self) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg_Get.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_Get'>SYSCON_pdruncfg_Get</a></code></h4>
+<div class='docblock'><p>Fetch the value of the <code>PDRUNCFG</code> register.</p>
+</div><h4 id='method.ircout_pd' class='method'><code>fn <a href='#method.ircout_pd' class='fnname'>ircout_pd</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_pdruncfg_ircout_pd.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_ircout_pd'>SYSCON_pdruncfg_ircout_pd</a></code></h4>
+<div class='docblock'><p>Get value of <code>IRCOUT_PD</code> field.</p>
+</div><h4 id='method.irc_pd' class='method'><code>fn <a href='#method.irc_pd' class='fnname'>irc_pd</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_pdruncfg_irc_pd.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_irc_pd'>SYSCON_pdruncfg_irc_pd</a></code></h4>
+<div class='docblock'><p>Get value of <code>IRC_PD</code> field.</p>
+</div><h4 id='method.flash_pd' class='method'><code>fn <a href='#method.flash_pd' class='fnname'>flash_pd</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_pdruncfg_flash_pd.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_flash_pd'>SYSCON_pdruncfg_flash_pd</a></code></h4>
+<div class='docblock'><p>Get value of <code>FLASH_PD</code> field.</p>
+</div><h4 id='method.bod_pd' class='method'><code>fn <a href='#method.bod_pd' class='fnname'>bod_pd</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_pdruncfg_bod_pd.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_bod_pd'>SYSCON_pdruncfg_bod_pd</a></code></h4>
+<div class='docblock'><p>Get value of <code>BOD_PD</code> field.</p>
+</div><h4 id='method.adc_pd' class='method'><code>fn <a href='#method.adc_pd' class='fnname'>adc_pd</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_pdruncfg_adc_pd.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_adc_pd'>SYSCON_pdruncfg_adc_pd</a></code></h4>
+<div class='docblock'><p>Get value of <code>ADC_PD</code> field.</p>
+</div><h4 id='method.sysosc_pd' class='method'><code>fn <a href='#method.sysosc_pd' class='fnname'>sysosc_pd</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_pdruncfg_sysosc_pd.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_sysosc_pd'>SYSCON_pdruncfg_sysosc_pd</a></code></h4>
+<div class='docblock'><p>Get value of <code>SYSOSC_PD</code> field.</p>
+</div><h4 id='method.wdtosc_pd' class='method'><code>fn <a href='#method.wdtosc_pd' class='fnname'>wdtosc_pd</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_pdruncfg_wdtosc_pd.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_wdtosc_pd'>SYSCON_pdruncfg_wdtosc_pd</a></code></h4>
+<div class='docblock'><p>Get value of <code>WDTOSC_PD</code> field.</p>
+</div><h4 id='method.syspll_pd' class='method'><code>fn <a href='#method.syspll_pd' class='fnname'>syspll_pd</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_pdruncfg_syspll_pd.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_syspll_pd'>SYSCON_pdruncfg_syspll_pd</a></code></h4>
+<div class='docblock'><p>Get value of <code>SYSPLL_PD</code> field.</p>
+</div><h4 id='method.notused0' class='method'><code>fn <a href='#method.notused0' class='fnname'>notused0</a>(&amp;self) -&gt; bool</code></h4>
+<div class='docblock'><p>Get value of <code>NOTUSED0</code> field.</p>
+</div><h4 id='method.notused1' class='method'><code>fn <a href='#method.notused1' class='fnname'>notused1</a>(&amp;self) -&gt; bool</code></h4>
+<div class='docblock'><p>Get value of <code>NOTUSED1</code> field.</p>
+</div><h4 id='method.notused2' class='method'><code>fn <a href='#method.notused2' class='fnname'>notused2</a>(&amp;self) -&gt; bool</code></h4>
+<div class='docblock'><p>Get value of <code>NOTUSED2</code> field.</p>
+</div><h4 id='method.notused3' class='method'><code>fn <a href='#method.notused3' class='fnname'>notused3</a>(&amp;self) -&gt; bool</code></h4>
+<div class='docblock'><p>Get value of <code>NOTUSED3</code> field.</p>
+</div><h4 id='method.notused4' class='method'><code>fn <a href='#method.notused4' class='fnname'>notused4</a>(&amp;self) -&gt; bool</code></h4>
+<div class='docblock'><p>Get value of <code>NOTUSED4</code> field.</p>
+</div><h4 id='method.notused5' class='method'><code>fn <a href='#method.notused5' class='fnname'>notused5</a>(&amp;self) -&gt; u32</code></h4>
+<div class='docblock'><p>Get value of <code>NOTUSED5</code> field.</p>
+</div><h4 id='method.ignoring_state' class='method'><code>fn <a href='#method.ignoring_state' class='fnname'>ignoring_state</a>(&amp;self) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_Update'>SYSCON_pdruncfg_Update</a></code></h4>
+<div class='docblock'><p>Create new updater that ignores current value of the <code>PDRUNCFG</code> register.</p>
+</div><h4 id='method.set_ircout_pd' class='method'><code>fn <a href='#method.set_ircout_pd' class='fnname'>set_ircout_pd</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_pdruncfg_ircout_pd.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_ircout_pd'>SYSCON_pdruncfg_ircout_pd</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_Update'>SYSCON_pdruncfg_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>IRCOUT_PD</code> field.</p>
+</div><h4 id='method.set_irc_pd' class='method'><code>fn <a href='#method.set_irc_pd' class='fnname'>set_irc_pd</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_pdruncfg_irc_pd.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_irc_pd'>SYSCON_pdruncfg_irc_pd</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_Update'>SYSCON_pdruncfg_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>IRC_PD</code> field.</p>
+</div><h4 id='method.set_flash_pd' class='method'><code>fn <a href='#method.set_flash_pd' class='fnname'>set_flash_pd</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_pdruncfg_flash_pd.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_flash_pd'>SYSCON_pdruncfg_flash_pd</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_Update'>SYSCON_pdruncfg_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>FLASH_PD</code> field.</p>
+</div><h4 id='method.set_bod_pd' class='method'><code>fn <a href='#method.set_bod_pd' class='fnname'>set_bod_pd</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_pdruncfg_bod_pd.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_bod_pd'>SYSCON_pdruncfg_bod_pd</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_Update'>SYSCON_pdruncfg_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>BOD_PD</code> field.</p>
+</div><h4 id='method.set_adc_pd' class='method'><code>fn <a href='#method.set_adc_pd' class='fnname'>set_adc_pd</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_pdruncfg_adc_pd.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_adc_pd'>SYSCON_pdruncfg_adc_pd</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_Update'>SYSCON_pdruncfg_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>ADC_PD</code> field.</p>
+</div><h4 id='method.set_sysosc_pd' class='method'><code>fn <a href='#method.set_sysosc_pd' class='fnname'>set_sysosc_pd</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_pdruncfg_sysosc_pd.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_sysosc_pd'>SYSCON_pdruncfg_sysosc_pd</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_Update'>SYSCON_pdruncfg_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>SYSOSC_PD</code> field.</p>
+</div><h4 id='method.set_wdtosc_pd' class='method'><code>fn <a href='#method.set_wdtosc_pd' class='fnname'>set_wdtosc_pd</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_pdruncfg_wdtosc_pd.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_wdtosc_pd'>SYSCON_pdruncfg_wdtosc_pd</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_Update'>SYSCON_pdruncfg_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>WDTOSC_PD</code> field.</p>
+</div><h4 id='method.set_syspll_pd' class='method'><code>fn <a href='#method.set_syspll_pd' class='fnname'>set_syspll_pd</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_pdruncfg_syspll_pd.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_syspll_pd'>SYSCON_pdruncfg_syspll_pd</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_Update'>SYSCON_pdruncfg_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>SYSPLL_PD</code> field.</p>
+</div><h4 id='method.set_notused0' class='method'><code>fn <a href='#method.set_notused0' class='fnname'>set_notused0</a>&lt;'a&gt;(&amp;'a mut self, new_value: bool) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_Update'>SYSCON_pdruncfg_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>NOTUSED0</code> field.</p>
+</div><h4 id='method.set_notused1' class='method'><code>fn <a href='#method.set_notused1' class='fnname'>set_notused1</a>&lt;'a&gt;(&amp;'a mut self, new_value: bool) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_Update'>SYSCON_pdruncfg_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>NOTUSED1</code> field.</p>
+</div><h4 id='method.set_notused2' class='method'><code>fn <a href='#method.set_notused2' class='fnname'>set_notused2</a>&lt;'a&gt;(&amp;'a mut self, new_value: bool) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_Update'>SYSCON_pdruncfg_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>NOTUSED2</code> field.</p>
+</div><h4 id='method.set_notused3' class='method'><code>fn <a href='#method.set_notused3' class='fnname'>set_notused3</a>&lt;'a&gt;(&amp;'a mut self, new_value: bool) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_Update'>SYSCON_pdruncfg_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>NOTUSED3</code> field.</p>
+</div><h4 id='method.set_notused4' class='method'><code>fn <a href='#method.set_notused4' class='fnname'>set_notused4</a>&lt;'a&gt;(&amp;'a mut self, new_value: bool) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_Update'>SYSCON_pdruncfg_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>NOTUSED4</code> field.</p>
+</div><h4 id='method.set_notused5' class='method'><code>fn <a href='#method.set_notused5' class='fnname'>set_notused5</a>&lt;'a&gt;(&amp;'a mut self, new_value: u32) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg_Update'>SYSCON_pdruncfg_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>NOTUSED5</code> field.</p>
+</div></div><h2 id='implementations'>Trait Implementations</h2><h3 class='impl'><code>impl <a class='trait' href='https://doc.rust-lang.org/nightly/core/marker/trait.Copy.html' title='core::marker::Copy'>Copy</a> for <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg'>SYSCON_pdruncfg</a></code></h3><div class='impl-items'></div><h3 id='derived_implementations'>Derived Implementations </h3><h3 class='impl'><code>impl <a class='trait' href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html' title='core::clone::Clone'>Clone</a> for <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg'>SYSCON_pdruncfg</a></code></h3><div class='impl-items'><h4 id='method.clone' class='method'><code>fn <a href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone' class='fnname'>clone</a>(&amp;self) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_pdruncfg.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_pdruncfg'>SYSCON_pdruncfg</a></code></h4>
+<h4 id='method.clone_from' class='method'><code>fn <a href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone_from' class='fnname'>clone_from</a>(&amp;mut self, source: &amp;Self)</code></h4>
+</div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../../";
+        window.currentCrate = "zinc_hal_lpc11xx";
+        window.playgroundUrl = "";
+    </script>
+    <script src="../../jquery.js"></script>
+    <script src="../../main.js"></script>
+    
+    <script defer src="../../search-index.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `FLASHCTRL` struct in crate `zinc_hal_lpc11xx`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, FLASHCTRL">
+
+    <title>zinc_hal_lpc11xx::ioregs::FLASHCTRL - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'><a href='../index.html'>zinc_hal_lpc11xx</a>::<wbr><a href='index.html'>ioregs</a></p><script>window.sidebarCurrent = {name: 'FLASHCTRL', ty: 'struct', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content struct">
+<h1 class='fqn'><span class='in-band'>Struct <a href='../index.html'>zinc_hal_lpc11xx</a>::<wbr><a href='index.html'>ioregs</a>::<wbr><a class='struct' href=''>FLASHCTRL</a></span><span class='out-of-band'><span id='render-detail'>
+            <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                [<span class='inner'>&#x2212;</span>]
+            </a>
+        </span><a id='src-8754' class='srclink' href='../../src/zinc_hal_lpc11xx/ioregs.rs.html#18761' title='goto source code'>[src]</a></span></h1>
+<pre class='rust struct'>pub struct FLASHCTRL;</pre><div class='docblock'><p>Product name title=UM10462 Chapter title=LPC11U1x Flash programming firmware Modification date=3/17/2011 Major revision=0 Minor revision=3</p>
+</div><h2 id='methods'>Methods</h2><h3 class='impl'><code>impl <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.FLASHCTRL.html' title='zinc_hal_lpc11xx::ioregs::FLASHCTRL'>FLASHCTRL</a></code></h3><div class='impl-items'><h4 id='method.flashcfg' class='method'><code>fn <a href='#method.flashcfg' class='fnname'>flashcfg</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.FLASHCTRL_flashcfg.html' title='zinc_hal_lpc11xx::ioregs::FLASHCTRL_flashcfg'>FLASHCTRL_flashcfg</a></code></h4>
+<div class='docblock'><p>Flash memory access time configuration register</p>
+</div><h4 id='method.fmsstart' class='method'><code>fn <a href='#method.fmsstart' class='fnname'>fmsstart</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.FLASHCTRL_fmsstart.html' title='zinc_hal_lpc11xx::ioregs::FLASHCTRL_fmsstart'>FLASHCTRL_fmsstart</a></code></h4>
+<div class='docblock'><p>Signature start address register</p>
+</div><h4 id='method.fmsstop' class='method'><code>fn <a href='#method.fmsstop' class='fnname'>fmsstop</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.FLASHCTRL_fmsstop.html' title='zinc_hal_lpc11xx::ioregs::FLASHCTRL_fmsstop'>FLASHCTRL_fmsstop</a></code></h4>
+<div class='docblock'><p>Signature stop-address register</p>
+</div><h4 id='method.fmsw0' class='method'><code>fn <a href='#method.fmsw0' class='fnname'>fmsw0</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.FLASHCTRL_fmsw0.html' title='zinc_hal_lpc11xx::ioregs::FLASHCTRL_fmsw0'>FLASHCTRL_fmsw0</a></code></h4>
+<div class='docblock'><p>Word 0 [31:0]</p>
+</div><h4 id='method.fmsw1' class='method'><code>fn <a href='#method.fmsw1' class='fnname'>fmsw1</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.FLASHCTRL_fmsw1.html' title='zinc_hal_lpc11xx::ioregs::FLASHCTRL_fmsw1'>FLASHCTRL_fmsw1</a></code></h4>
+<div class='docblock'><p>Word 1 [63:32]</p>
+</div><h4 id='method.fmsw2' class='method'><code>fn <a href='#method.fmsw2' class='fnname'>fmsw2</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.FLASHCTRL_fmsw2.html' title='zinc_hal_lpc11xx::ioregs::FLASHCTRL_fmsw2'>FLASHCTRL_fmsw2</a></code></h4>
+<div class='docblock'><p>Word 2 [95:64]</p>
+</div><h4 id='method.fmsw3' class='method'><code>fn <a href='#method.fmsw3' class='fnname'>fmsw3</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.FLASHCTRL_fmsw3.html' title='zinc_hal_lpc11xx::ioregs::FLASHCTRL_fmsw3'>FLASHCTRL_fmsw3</a></code></h4>
+<div class='docblock'><p>Word 3 [127:96]</p>
+</div><h4 id='method.fmstat' class='method'><code>fn <a href='#method.fmstat' class='fnname'>fmstat</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.FLASHCTRL_fmstat.html' title='zinc_hal_lpc11xx::ioregs::FLASHCTRL_fmstat'>FLASHCTRL_fmstat</a></code></h4>
+<div class='docblock'><p>Signature generation status register</p>
+</div><h4 id='method.fmstatclr' class='method'><code>fn <a href='#method.fmstatclr' class='fnname'>fmstatclr</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.FLASHCTRL_fmstatclr.html' title='zinc_hal_lpc11xx::ioregs::FLASHCTRL_fmstatclr'>FLASHCTRL_fmstatclr</a></code></h4>
+<div class='docblock'><p>Signature generation status clear register</p>
+</div></div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../../";
+        window.currentCrate = "zinc_hal_lpc11xx";
+        window.playgroundUrl = "";
+    </script>
+    <script src="../../jquery.js"></script>
+    <script src="../../main.js"></script>
+    
+    <script defer src="../../search-index.js"></script>
+</body>
+</html>

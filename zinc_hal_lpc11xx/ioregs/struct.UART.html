@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `UART` struct in crate `zinc_hal_lpc11xx`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, UART">
+
+    <title>zinc_hal_lpc11xx::ioregs::UART - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'><a href='../index.html'>zinc_hal_lpc11xx</a>::<wbr><a href='index.html'>ioregs</a></p><script>window.sidebarCurrent = {name: 'UART', ty: 'struct', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content struct">
+<h1 class='fqn'><span class='in-band'>Struct <a href='../index.html'>zinc_hal_lpc11xx</a>::<wbr><a href='index.html'>ioregs</a>::<wbr><a class='struct' href=''>UART</a></span><span class='out-of-band'><span id='render-detail'>
+            <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                [<span class='inner'>&#x2212;</span>]
+            </a>
+        </span><a id='src-3314' class='srclink' href='../../src/zinc_hal_lpc11xx/ioregs.rs.html#6970' title='goto source code'>[src]</a></span></h1>
+<pre class='rust struct'>pub struct UART;</pre><div class='docblock'><p>Product name title=UM10398 Chapter title=LPC111x/LPC11Cxx UART Modification date=9/19/2011 Major revision=7 Minor revision=not available</p>
+</div><h2 id='methods'>Methods</h2><h3 class='impl'><code>impl <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART.html' title='zinc_hal_lpc11xx::ioregs::UART'>UART</a></code></h3><div class='impl-items'><h4 id='method.rbr' class='method'><code>fn <a href='#method.rbr' class='fnname'>rbr</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART_rbr.html' title='zinc_hal_lpc11xx::ioregs::UART_rbr'>UART_rbr</a></code></h4>
+<div class='docblock'><p>Receiver Buffer Register. Contains the next received character to be read. (DLAB=0)</p>
+</div><h4 id='method.thr' class='method'><code>fn <a href='#method.thr' class='fnname'>thr</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART_thr.html' title='zinc_hal_lpc11xx::ioregs::UART_thr'>UART_thr</a></code></h4>
+<div class='docblock'><p>Transmit Holding Register. The next character to be transmitted is written here. (DLAB=0)</p>
+</div><h4 id='method.dll' class='method'><code>fn <a href='#method.dll' class='fnname'>dll</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART_dll.html' title='zinc_hal_lpc11xx::ioregs::UART_dll'>UART_dll</a></code></h4>
+<div class='docblock'><p>Divisor Latch LSB. Least significant byte of the baud rate divisor value. The full divisor is used to generate a baud rate from the fractional rate divider. (DLAB=1)</p>
+</div><h4 id='method.dlm' class='method'><code>fn <a href='#method.dlm' class='fnname'>dlm</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART_dlm.html' title='zinc_hal_lpc11xx::ioregs::UART_dlm'>UART_dlm</a></code></h4>
+<div class='docblock'><p>Divisor Latch MSB. Most significant byte of the baud rate divisor value. The full divisor is used to generate a baud rate from the fractional rate divider. (DLAB=1)</p>
+</div><h4 id='method.ier' class='method'><code>fn <a href='#method.ier' class='fnname'>ier</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART_ier.html' title='zinc_hal_lpc11xx::ioregs::UART_ier'>UART_ier</a></code></h4>
+<div class='docblock'><p>Interrupt Enable Register. Contains individual interrupt enable bits for the 7 potential UART interrupts. (DLAB=0)</p>
+</div><h4 id='method.iir' class='method'><code>fn <a href='#method.iir' class='fnname'>iir</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART_iir.html' title='zinc_hal_lpc11xx::ioregs::UART_iir'>UART_iir</a></code></h4>
+<div class='docblock'><p>Interrupt ID Register. Identifies which interrupt(s) are pending.</p>
+</div><h4 id='method.fcr' class='method'><code>fn <a href='#method.fcr' class='fnname'>fcr</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART_fcr.html' title='zinc_hal_lpc11xx::ioregs::UART_fcr'>UART_fcr</a></code></h4>
+<div class='docblock'><p>FIFO Control Register. Controls UART FIFO usage and modes.</p>
+</div><h4 id='method.lcr' class='method'><code>fn <a href='#method.lcr' class='fnname'>lcr</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART_lcr.html' title='zinc_hal_lpc11xx::ioregs::UART_lcr'>UART_lcr</a></code></h4>
+<div class='docblock'><p>Line Control Register. Contains controls for frame formatting and break generation.</p>
+</div><h4 id='method.mcr' class='method'><code>fn <a href='#method.mcr' class='fnname'>mcr</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART_mcr.html' title='zinc_hal_lpc11xx::ioregs::UART_mcr'>UART_mcr</a></code></h4>
+<div class='docblock'><p>Modem control register</p>
+</div><h4 id='method.lsr' class='method'><code>fn <a href='#method.lsr' class='fnname'>lsr</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART_lsr.html' title='zinc_hal_lpc11xx::ioregs::UART_lsr'>UART_lsr</a></code></h4>
+<div class='docblock'><p>Line Status Register. Contains flags for transmit and receive status, including line errors.</p>
+</div><h4 id='method.msr' class='method'><code>fn <a href='#method.msr' class='fnname'>msr</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART_msr.html' title='zinc_hal_lpc11xx::ioregs::UART_msr'>UART_msr</a></code></h4>
+<div class='docblock'><p>Modem status register</p>
+</div><h4 id='method.scr' class='method'><code>fn <a href='#method.scr' class='fnname'>scr</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART_scr.html' title='zinc_hal_lpc11xx::ioregs::UART_scr'>UART_scr</a></code></h4>
+<div class='docblock'><p>Scratch Pad Register. Eight-bit temporary storage for software.</p>
+</div><h4 id='method.acr' class='method'><code>fn <a href='#method.acr' class='fnname'>acr</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART_acr.html' title='zinc_hal_lpc11xx::ioregs::UART_acr'>UART_acr</a></code></h4>
+<div class='docblock'><p>Auto-baud Control Register. Contains controls for the auto-baud feature.</p>
+</div><h4 id='method.fdr' class='method'><code>fn <a href='#method.fdr' class='fnname'>fdr</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART_fdr.html' title='zinc_hal_lpc11xx::ioregs::UART_fdr'>UART_fdr</a></code></h4>
+<div class='docblock'><p>Fractional Divider Register. Generates a clock input for the baud rate divider.</p>
+</div><h4 id='method.ter' class='method'><code>fn <a href='#method.ter' class='fnname'>ter</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART_ter.html' title='zinc_hal_lpc11xx::ioregs::UART_ter'>UART_ter</a></code></h4>
+<div class='docblock'><p>Transmit Enable Register. Turns off UART transmitter for use with software flow control.</p>
+</div><h4 id='method.rs485ctrl' class='method'><code>fn <a href='#method.rs485ctrl' class='fnname'>rs485ctrl</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART_rs485ctrl.html' title='zinc_hal_lpc11xx::ioregs::UART_rs485ctrl'>UART_rs485ctrl</a></code></h4>
+<div class='docblock'><p>RS-485/EIA-485 Control. Contains controls to configure various aspects of RS-485/EIA-485 modes.</p>
+</div><h4 id='method.rs485adrmatch' class='method'><code>fn <a href='#method.rs485adrmatch' class='fnname'>rs485adrmatch</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART_rs485adrmatch.html' title='zinc_hal_lpc11xx::ioregs::UART_rs485adrmatch'>UART_rs485adrmatch</a></code></h4>
+<div class='docblock'><p>RS-485/EIA-485 address match. Contains the address match value for RS-485/EIA-485 mode.</p>
+</div><h4 id='method.rs485dly' class='method'><code>fn <a href='#method.rs485dly' class='fnname'>rs485dly</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.UART_rs485dly.html' title='zinc_hal_lpc11xx::ioregs::UART_rs485dly'>UART_rs485dly</a></code></h4>
+<div class='docblock'><p>RS-485/EIA-485 direction control delay.</p>
+</div></div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../../";
+        window.currentCrate = "zinc_hal_lpc11xx";
+        window.playgroundUrl = "";
+    </script>
+    <script src="../../jquery.js"></script>
+    <script src="../../main.js"></script>
+    
+    <script defer src="../../search-index.js"></script>
+</body>
+</html>

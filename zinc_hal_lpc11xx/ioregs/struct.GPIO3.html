@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `GPIO3` struct in crate `zinc_hal_lpc11xx`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, GPIO3">
+
+    <title>zinc_hal_lpc11xx::ioregs::GPIO3 - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'><a href='../index.html'>zinc_hal_lpc11xx</a>::<wbr><a href='index.html'>ioregs</a></p><script>window.sidebarCurrent = {name: 'GPIO3', ty: 'struct', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content struct">
+<h1 class='fqn'><span class='in-band'>Struct <a href='../index.html'>zinc_hal_lpc11xx</a>::<wbr><a href='index.html'>ioregs</a>::<wbr><a class='struct' href=''>GPIO3</a></span><span class='out-of-band'><span id='render-detail'>
+            <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                [<span class='inner'>&#x2212;</span>]
+            </a>
+        </span><a id='src-26654' class='srclink' href='../../src/zinc_hal_lpc11xx/ioregs.rs.html#54739' title='goto source code'>[src]</a></span></h1>
+<pre class='rust struct'>pub struct GPIO3;</pre><div class='docblock'><p>LPC11xx, LPC11Cxx, LPC11xxL, LPC11xxXL</p>
+</div><h2 id='methods'>Methods</h2><h3 class='impl'><code>impl <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.GPIO3.html' title='zinc_hal_lpc11xx::ioregs::GPIO3'>GPIO3</a></code></h3><div class='impl-items'><h4 id='method.data' class='method'><code>fn <a href='#method.data' class='fnname'>data</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.GPIO0_data.html' title='zinc_hal_lpc11xx::ioregs::GPIO0_data'>GPIO0_data</a></code></h4>
+<div class='docblock'><p>Port n data register for pins PIOn_0 to PIOn_11</p>
+</div><h4 id='method.dir' class='method'><code>fn <a href='#method.dir' class='fnname'>dir</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.GPIO0_dir.html' title='zinc_hal_lpc11xx::ioregs::GPIO0_dir'>GPIO0_dir</a></code></h4>
+<div class='docblock'><p>Data direction register for port n</p>
+</div><h4 id='method.is' class='method'><code>fn <a href='#method.is' class='fnname'>is</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.GPIO0_is.html' title='zinc_hal_lpc11xx::ioregs::GPIO0_is'>GPIO0_is</a></code></h4>
+<div class='docblock'><p>Interrupt sense register for port n</p>
+</div><h4 id='method.ibe' class='method'><code>fn <a href='#method.ibe' class='fnname'>ibe</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.GPIO0_ibe.html' title='zinc_hal_lpc11xx::ioregs::GPIO0_ibe'>GPIO0_ibe</a></code></h4>
+<div class='docblock'><p>Interrupt both edges register for port n</p>
+</div><h4 id='method.iev' class='method'><code>fn <a href='#method.iev' class='fnname'>iev</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.GPIO0_iev.html' title='zinc_hal_lpc11xx::ioregs::GPIO0_iev'>GPIO0_iev</a></code></h4>
+<div class='docblock'><p>Interrupt event register for port n</p>
+</div><h4 id='method.ie' class='method'><code>fn <a href='#method.ie' class='fnname'>ie</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.GPIO0_ie.html' title='zinc_hal_lpc11xx::ioregs::GPIO0_ie'>GPIO0_ie</a></code></h4>
+<div class='docblock'><p>Interrupt mask register for port n</p>
+</div><h4 id='method.ris' class='method'><code>fn <a href='#method.ris' class='fnname'>ris</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.GPIO0_ris.html' title='zinc_hal_lpc11xx::ioregs::GPIO0_ris'>GPIO0_ris</a></code></h4>
+<div class='docblock'><p>Raw interrupt status register for port n</p>
+</div><h4 id='method.mis' class='method'><code>fn <a href='#method.mis' class='fnname'>mis</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.GPIO0_mis.html' title='zinc_hal_lpc11xx::ioregs::GPIO0_mis'>GPIO0_mis</a></code></h4>
+<div class='docblock'><p>Masked interrupt status register for port n</p>
+</div><h4 id='method.ic' class='method'><code>fn <a href='#method.ic' class='fnname'>ic</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.GPIO0_ic.html' title='zinc_hal_lpc11xx::ioregs::GPIO0_ic'>GPIO0_ic</a></code></h4>
+<div class='docblock'><p>Interrupt clear register for port n</p>
+</div></div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../../";
+        window.currentCrate = "zinc_hal_lpc11xx";
+        window.playgroundUrl = "";
+    </script>
+    <script src="../../jquery.js"></script>
+    <script src="../../main.js"></script>
+    
+    <script defer src="../../search-index.js"></script>
+</body>
+</html>

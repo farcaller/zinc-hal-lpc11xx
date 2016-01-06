@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `C_CAN_canstat_Get` struct in crate `zinc_hal_lpc11xx`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, C_CAN_canstat_Get">
+
+    <title>zinc_hal_lpc11xx::ioregs::C_CAN_canstat_Get - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'><a href='../index.html'>zinc_hal_lpc11xx</a>::<wbr><a href='index.html'>ioregs</a></p><script>window.sidebarCurrent = {name: 'C_CAN_canstat_Get', ty: 'struct', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content struct">
+<h1 class='fqn'><span class='in-band'>Struct <a href='../index.html'>zinc_hal_lpc11xx</a>::<wbr><a href='index.html'>ioregs</a>::<wbr><a class='struct' href=''>C_CAN_canstat_Get</a></span><span class='out-of-band'><span id='render-detail'>
+            <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                [<span class='inner'>&#x2212;</span>]
+            </a>
+        </span><a id='src-21188' class='srclink' href='../../src/zinc_hal_lpc11xx/ioregs.rs.html#43242-43244' title='goto source code'>[src]</a></span></h1>
+<pre class='rust struct'>pub struct C_CAN_canstat_Get {
+    // some fields omitted
+}</pre><div class='docblock'><p><code>CANSTAT</code>: Status register</p>
+</div><h2 id='methods'>Methods</h2><h3 class='impl'><code>impl <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canstat_Get.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canstat_Get'>C_CAN_canstat_Get</a></code></h3><div class='impl-items'><h4 id='method.new' class='method'><code>fn <a href='#method.new' class='fnname'>new</a>(reg: &amp;<a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canstat.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canstat'>C_CAN_canstat</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canstat_Get.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canstat_Get'>C_CAN_canstat_Get</a></code></h4>
+<div class='docblock'><p>Create a getter reflecting the current value of the given register.</p>
+</div><h4 id='method.raw' class='method'><code>fn <a href='#method.raw' class='fnname'>raw</a>(&amp;self) -&gt; u32</code></h4>
+<div class='docblock'><p>Get the raw value of the register.</p>
+</div><h4 id='method.lec' class='method'><code>fn <a href='#method.lec' class='fnname'>lec</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.C_CAN_canstat_lec.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canstat_lec'>C_CAN_canstat_lec</a></code></h4>
+<div class='docblock'><p>Get value of <code>LEC</code> field: Last error code Type of the last error to occur on the CAN bus.The LEC field holds a code which indicates the type of the last error to occur on the CAN bus. This field will be cleared to 0 when a message has been transferred (reception or transmission) without error. The unused code 111 may be written by the CPU to check for updates.</p>
+</div><h4 id='method.txok' class='method'><code>fn <a href='#method.txok' class='fnname'>txok</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.C_CAN_canstat_txok.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canstat_txok'>C_CAN_canstat_txok</a></code></h4>
+<div class='docblock'><p>Get value of <code>TXOK</code> field: Transmitted a message successfully This bit is reset by the CPU. It is never reset by the CAN controller.</p>
+</div><h4 id='method.rxok' class='method'><code>fn <a href='#method.rxok' class='fnname'>rxok</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.C_CAN_canstat_rxok.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canstat_rxok'>C_CAN_canstat_rxok</a></code></h4>
+<div class='docblock'><p>Get value of <code>RXOK</code> field: Received a message successfully This bit is reset by the CPU. It is never reset by the CAN controller.</p>
+</div><h4 id='method.epass' class='method'><code>fn <a href='#method.epass' class='fnname'>epass</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.C_CAN_canstat_epass.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canstat_epass'>C_CAN_canstat_epass</a></code></h4>
+<div class='docblock'><p>Get value of <code>EPASS</code> field: Error passive</p>
+</div><h4 id='method.ewarn' class='method'><code>fn <a href='#method.ewarn' class='fnname'>ewarn</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.C_CAN_canstat_ewarn.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canstat_ewarn'>C_CAN_canstat_ewarn</a></code></h4>
+<div class='docblock'><p>Get value of <code>EWARN</code> field: Warning status</p>
+</div><h4 id='method.boff' class='method'><code>fn <a href='#method.boff' class='fnname'>boff</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.C_CAN_canstat_boff.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canstat_boff'>C_CAN_canstat_boff</a></code></h4>
+<div class='docblock'><p>Get value of <code>BOFF</code> field: Busoff status</p>
+</div></div><h2 id='implementations'>Trait Implementations</h2><h3 class='impl'><code>impl <a class='trait' href='https://doc.rust-lang.org/nightly/core/marker/trait.Copy.html' title='core::marker::Copy'>Copy</a> for <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canstat_Get.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canstat_Get'>C_CAN_canstat_Get</a></code></h3><div class='impl-items'></div><h3 id='derived_implementations'>Derived Implementations </h3><h3 class='impl'><code>impl <a class='trait' href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html' title='core::clone::Clone'>Clone</a> for <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canstat_Get.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canstat_Get'>C_CAN_canstat_Get</a></code></h3><div class='impl-items'><h4 id='method.clone' class='method'><code>fn <a href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone' class='fnname'>clone</a>(&amp;self) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canstat_Get.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canstat_Get'>C_CAN_canstat_Get</a></code></h4>
+<h4 id='method.clone_from' class='method'><code>fn <a href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone_from' class='fnname'>clone_from</a>(&amp;mut self, source: &amp;Self)</code></h4>
+</div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../../";
+        window.currentCrate = "zinc_hal_lpc11xx";
+        window.playgroundUrl = "";
+    </script>
+    <script src="../../jquery.js"></script>
+    <script src="../../main.js"></script>
+    
+    <script defer src="../../search-index.js"></script>
+</body>
+</html>

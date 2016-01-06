@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `SYSCON_sysahbclkctrl` struct in crate `zinc_hal_lpc11xx`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, SYSCON_sysahbclkctrl">
+
+    <title>zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'><a href='../index.html'>zinc_hal_lpc11xx</a>::<wbr><a href='index.html'>ioregs</a></p><script>window.sidebarCurrent = {name: 'SYSCON_sysahbclkctrl', ty: 'struct', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content struct">
+<h1 class='fqn'><span class='in-band'>Struct <a href='../index.html'>zinc_hal_lpc11xx</a>::<wbr><a href='index.html'>ioregs</a>::<wbr><a class='struct' href=''>SYSCON_sysahbclkctrl</a></span><span class='out-of-band'><span id='render-detail'>
+            <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                [<span class='inner'>&#x2212;</span>]
+            </a>
+        </span><a id='src-17923' class='srclink' href='../../src/zinc_hal_lpc11xx/ioregs.rs.html#36597-36599' title='goto source code'>[src]</a></span></h1>
+<pre class='rust struct'>pub struct SYSCON_sysahbclkctrl {
+    // some fields omitted
+}</pre><div class='docblock'><p>Register <code>SYSAHBCLKCTRL</code>: System AHB clock control</p>
+</div><h2 id='methods'>Methods</h2><h3 class='impl'><code>impl <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl'>SYSCON_sysahbclkctrl</a></code></h3><div class='impl-items'><h4 id='method.get' class='method'><code>fn <a href='#method.get' class='fnname'>get</a>(&amp;self) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Get.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Get'>SYSCON_sysahbclkctrl_Get</a></code></h4>
+<div class='docblock'><p>Fetch the value of the <code>SYSAHBCLKCTRL</code> register.</p>
+</div><h4 id='method.rom' class='method'><code>fn <a href='#method.rom' class='fnname'>rom</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_rom.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_rom'>SYSCON_sysahbclkctrl_rom</a></code></h4>
+<div class='docblock'><p>Get value of <code>ROM</code> field.</p>
+</div><h4 id='method.ram' class='method'><code>fn <a href='#method.ram' class='fnname'>ram</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_ram.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_ram'>SYSCON_sysahbclkctrl_ram</a></code></h4>
+<div class='docblock'><p>Get value of <code>RAM</code> field.</p>
+</div><h4 id='method.flashreg' class='method'><code>fn <a href='#method.flashreg' class='fnname'>flashreg</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_flashreg.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_flashreg'>SYSCON_sysahbclkctrl_flashreg</a></code></h4>
+<div class='docblock'><p>Get value of <code>FLASHREG</code> field.</p>
+</div><h4 id='method.flasharray' class='method'><code>fn <a href='#method.flasharray' class='fnname'>flasharray</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_flasharray.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_flasharray'>SYSCON_sysahbclkctrl_flasharray</a></code></h4>
+<div class='docblock'><p>Get value of <code>FLASHARRAY</code> field.</p>
+</div><h4 id='method.i2c' class='method'><code>fn <a href='#method.i2c' class='fnname'>i2c</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_i2c.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_i2c'>SYSCON_sysahbclkctrl_i2c</a></code></h4>
+<div class='docblock'><p>Get value of <code>I2C</code> field.</p>
+</div><h4 id='method.gpio' class='method'><code>fn <a href='#method.gpio' class='fnname'>gpio</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_gpio.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_gpio'>SYSCON_sysahbclkctrl_gpio</a></code></h4>
+<div class='docblock'><p>Get value of <code>GPIO</code> field.</p>
+</div><h4 id='method.ct16b0' class='method'><code>fn <a href='#method.ct16b0' class='fnname'>ct16b0</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_ct16b0.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_ct16b0'>SYSCON_sysahbclkctrl_ct16b0</a></code></h4>
+<div class='docblock'><p>Get value of <code>CT16B0</code> field.</p>
+</div><h4 id='method.ct16b1' class='method'><code>fn <a href='#method.ct16b1' class='fnname'>ct16b1</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_ct16b1.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_ct16b1'>SYSCON_sysahbclkctrl_ct16b1</a></code></h4>
+<div class='docblock'><p>Get value of <code>CT16B1</code> field.</p>
+</div><h4 id='method.ct32b0' class='method'><code>fn <a href='#method.ct32b0' class='fnname'>ct32b0</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_ct32b0.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_ct32b0'>SYSCON_sysahbclkctrl_ct32b0</a></code></h4>
+<div class='docblock'><p>Get value of <code>CT32B0</code> field.</p>
+</div><h4 id='method.ct32b1' class='method'><code>fn <a href='#method.ct32b1' class='fnname'>ct32b1</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_ct32b1.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_ct32b1'>SYSCON_sysahbclkctrl_ct32b1</a></code></h4>
+<div class='docblock'><p>Get value of <code>CT32B1</code> field.</p>
+</div><h4 id='method.ssp0' class='method'><code>fn <a href='#method.ssp0' class='fnname'>ssp0</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_ssp0.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_ssp0'>SYSCON_sysahbclkctrl_ssp0</a></code></h4>
+<div class='docblock'><p>Get value of <code>SSP0</code> field.</p>
+</div><h4 id='method.uart' class='method'><code>fn <a href='#method.uart' class='fnname'>uart</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_uart.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_uart'>SYSCON_sysahbclkctrl_uart</a></code></h4>
+<div class='docblock'><p>Get value of <code>UART</code> field.</p>
+</div><h4 id='method.adc' class='method'><code>fn <a href='#method.adc' class='fnname'>adc</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_adc.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_adc'>SYSCON_sysahbclkctrl_adc</a></code></h4>
+<div class='docblock'><p>Get value of <code>ADC</code> field.</p>
+</div><h4 id='method.wdt' class='method'><code>fn <a href='#method.wdt' class='fnname'>wdt</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_wdt.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_wdt'>SYSCON_sysahbclkctrl_wdt</a></code></h4>
+<div class='docblock'><p>Get value of <code>WDT</code> field.</p>
+</div><h4 id='method.iocon' class='method'><code>fn <a href='#method.iocon' class='fnname'>iocon</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_iocon.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_iocon'>SYSCON_sysahbclkctrl_iocon</a></code></h4>
+<div class='docblock'><p>Get value of <code>IOCON</code> field.</p>
+</div><h4 id='method.can' class='method'><code>fn <a href='#method.can' class='fnname'>can</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_can.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_can'>SYSCON_sysahbclkctrl_can</a></code></h4>
+<div class='docblock'><p>Get value of <code>CAN</code> field.</p>
+</div><h4 id='method.ssp1' class='method'><code>fn <a href='#method.ssp1' class='fnname'>ssp1</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_ssp1.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_ssp1'>SYSCON_sysahbclkctrl_ssp1</a></code></h4>
+<div class='docblock'><p>Get value of <code>SSP1</code> field.</p>
+</div><h4 id='method.ignoring_state' class='method'><code>fn <a href='#method.ignoring_state' class='fnname'>ignoring_state</a>(&amp;self) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Update'>SYSCON_sysahbclkctrl_Update</a></code></h4>
+<div class='docblock'><p>Create new updater that ignores current value of the <code>SYSAHBCLKCTRL</code> register.</p>
+</div><h4 id='method.set_rom' class='method'><code>fn <a href='#method.set_rom' class='fnname'>set_rom</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_rom.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_rom'>SYSCON_sysahbclkctrl_rom</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Update'>SYSCON_sysahbclkctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>ROM</code> field.</p>
+</div><h4 id='method.set_ram' class='method'><code>fn <a href='#method.set_ram' class='fnname'>set_ram</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_ram.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_ram'>SYSCON_sysahbclkctrl_ram</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Update'>SYSCON_sysahbclkctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>RAM</code> field.</p>
+</div><h4 id='method.set_flashreg' class='method'><code>fn <a href='#method.set_flashreg' class='fnname'>set_flashreg</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_flashreg.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_flashreg'>SYSCON_sysahbclkctrl_flashreg</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Update'>SYSCON_sysahbclkctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>FLASHREG</code> field.</p>
+</div><h4 id='method.set_flasharray' class='method'><code>fn <a href='#method.set_flasharray' class='fnname'>set_flasharray</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_flasharray.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_flasharray'>SYSCON_sysahbclkctrl_flasharray</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Update'>SYSCON_sysahbclkctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>FLASHARRAY</code> field.</p>
+</div><h4 id='method.set_i2c' class='method'><code>fn <a href='#method.set_i2c' class='fnname'>set_i2c</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_i2c.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_i2c'>SYSCON_sysahbclkctrl_i2c</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Update'>SYSCON_sysahbclkctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>I2C</code> field.</p>
+</div><h4 id='method.set_gpio' class='method'><code>fn <a href='#method.set_gpio' class='fnname'>set_gpio</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_gpio.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_gpio'>SYSCON_sysahbclkctrl_gpio</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Update'>SYSCON_sysahbclkctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>GPIO</code> field.</p>
+</div><h4 id='method.set_ct16b0' class='method'><code>fn <a href='#method.set_ct16b0' class='fnname'>set_ct16b0</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_ct16b0.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_ct16b0'>SYSCON_sysahbclkctrl_ct16b0</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Update'>SYSCON_sysahbclkctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>CT16B0</code> field.</p>
+</div><h4 id='method.set_ct16b1' class='method'><code>fn <a href='#method.set_ct16b1' class='fnname'>set_ct16b1</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_ct16b1.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_ct16b1'>SYSCON_sysahbclkctrl_ct16b1</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Update'>SYSCON_sysahbclkctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>CT16B1</code> field.</p>
+</div><h4 id='method.set_ct32b0' class='method'><code>fn <a href='#method.set_ct32b0' class='fnname'>set_ct32b0</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_ct32b0.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_ct32b0'>SYSCON_sysahbclkctrl_ct32b0</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Update'>SYSCON_sysahbclkctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>CT32B0</code> field.</p>
+</div><h4 id='method.set_ct32b1' class='method'><code>fn <a href='#method.set_ct32b1' class='fnname'>set_ct32b1</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_ct32b1.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_ct32b1'>SYSCON_sysahbclkctrl_ct32b1</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Update'>SYSCON_sysahbclkctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>CT32B1</code> field.</p>
+</div><h4 id='method.set_ssp0' class='method'><code>fn <a href='#method.set_ssp0' class='fnname'>set_ssp0</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_ssp0.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_ssp0'>SYSCON_sysahbclkctrl_ssp0</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Update'>SYSCON_sysahbclkctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>SSP0</code> field.</p>
+</div><h4 id='method.set_uart' class='method'><code>fn <a href='#method.set_uart' class='fnname'>set_uart</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_uart.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_uart'>SYSCON_sysahbclkctrl_uart</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Update'>SYSCON_sysahbclkctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>UART</code> field.</p>
+</div><h4 id='method.set_adc' class='method'><code>fn <a href='#method.set_adc' class='fnname'>set_adc</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_adc.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_adc'>SYSCON_sysahbclkctrl_adc</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Update'>SYSCON_sysahbclkctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>ADC</code> field.</p>
+</div><h4 id='method.set_wdt' class='method'><code>fn <a href='#method.set_wdt' class='fnname'>set_wdt</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_wdt.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_wdt'>SYSCON_sysahbclkctrl_wdt</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Update'>SYSCON_sysahbclkctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>WDT</code> field.</p>
+</div><h4 id='method.set_iocon' class='method'><code>fn <a href='#method.set_iocon' class='fnname'>set_iocon</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_iocon.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_iocon'>SYSCON_sysahbclkctrl_iocon</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Update'>SYSCON_sysahbclkctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>IOCON</code> field.</p>
+</div><h4 id='method.set_can' class='method'><code>fn <a href='#method.set_can' class='fnname'>set_can</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_can.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_can'>SYSCON_sysahbclkctrl_can</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Update'>SYSCON_sysahbclkctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>CAN</code> field.</p>
+</div><h4 id='method.set_ssp1' class='method'><code>fn <a href='#method.set_ssp1' class='fnname'>set_ssp1</a>&lt;'a&gt;(&amp;'a mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.SYSCON_sysahbclkctrl_ssp1.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_ssp1'>SYSCON_sysahbclkctrl_ssp1</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl_Update'>SYSCON_sysahbclkctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>SSP1</code> field.</p>
+</div></div><h2 id='implementations'>Trait Implementations</h2><h3 class='impl'><code>impl <a class='trait' href='https://doc.rust-lang.org/nightly/core/marker/trait.Copy.html' title='core::marker::Copy'>Copy</a> for <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl'>SYSCON_sysahbclkctrl</a></code></h3><div class='impl-items'></div><h3 id='derived_implementations'>Derived Implementations </h3><h3 class='impl'><code>impl <a class='trait' href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html' title='core::clone::Clone'>Clone</a> for <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl'>SYSCON_sysahbclkctrl</a></code></h3><div class='impl-items'><h4 id='method.clone' class='method'><code>fn <a href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone' class='fnname'>clone</a>(&amp;self) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.SYSCON_sysahbclkctrl.html' title='zinc_hal_lpc11xx::ioregs::SYSCON_sysahbclkctrl'>SYSCON_sysahbclkctrl</a></code></h4>
+<h4 id='method.clone_from' class='method'><code>fn <a href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone_from' class='fnname'>clone_from</a>(&amp;mut self, source: &amp;Self)</code></h4>
+</div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../../";
+        window.currentCrate = "zinc_hal_lpc11xx";
+        window.playgroundUrl = "";
+    </script>
+    <script src="../../jquery.js"></script>
+    <script src="../../main.js"></script>
+    
+    <script defer src="../../search-index.js"></script>
+</body>
+</html>

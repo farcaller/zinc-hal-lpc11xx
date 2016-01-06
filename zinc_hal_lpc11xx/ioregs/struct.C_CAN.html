@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `C_CAN` struct in crate `zinc_hal_lpc11xx`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, C_CAN">
+
+    <title>zinc_hal_lpc11xx::ioregs::C_CAN - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'><a href='../index.html'>zinc_hal_lpc11xx</a>::<wbr><a href='index.html'>ioregs</a></p><script>window.sidebarCurrent = {name: 'C_CAN', ty: 'struct', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content struct">
+<h1 class='fqn'><span class='in-band'>Struct <a href='../index.html'>zinc_hal_lpc11xx</a>::<wbr><a href='index.html'>ioregs</a>::<wbr><a class='struct' href=''>C_CAN</a></span><span class='out-of-band'><span id='render-detail'>
+            <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                [<span class='inner'>&#x2212;</span>]
+            </a>
+        </span><a id='src-25085' class='srclink' href='../../src/zinc_hal_lpc11xx/ioregs.rs.html#50966' title='goto source code'>[src]</a></span></h1>
+<pre class='rust struct'>pub struct C_CAN;</pre><div class='docblock'><p>Product name title=UM10398 Chapter title=LPC111x/LPC11Cxx C_CAN controller Modification date=9/19/2011 Major revision=7 Minor revision=not available</p>
+</div><h2 id='methods'>Methods</h2><h3 class='impl'><code>impl <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN.html' title='zinc_hal_lpc11xx::ioregs::C_CAN'>C_CAN</a></code></h3><div class='impl-items'><h4 id='method.cancntl' class='method'><code>fn <a href='#method.cancntl' class='fnname'>cancntl</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_cancntl.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_cancntl'>C_CAN_cancntl</a></code></h4>
+<div class='docblock'><p>CAN control</p>
+</div><h4 id='method.canstat' class='method'><code>fn <a href='#method.canstat' class='fnname'>canstat</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canstat.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canstat'>C_CAN_canstat</a></code></h4>
+<div class='docblock'><p>Status register</p>
+</div><h4 id='method.canec' class='method'><code>fn <a href='#method.canec' class='fnname'>canec</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canec.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canec'>C_CAN_canec</a></code></h4>
+<div class='docblock'><p>Error counter</p>
+</div><h4 id='method.canbt' class='method'><code>fn <a href='#method.canbt' class='fnname'>canbt</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canbt.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canbt'>C_CAN_canbt</a></code></h4>
+<div class='docblock'><p>Bit timing register</p>
+</div><h4 id='method.canint' class='method'><code>fn <a href='#method.canint' class='fnname'>canint</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canint.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canint'>C_CAN_canint</a></code></h4>
+<div class='docblock'><p>Interrupt register</p>
+</div><h4 id='method.cantest' class='method'><code>fn <a href='#method.cantest' class='fnname'>cantest</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_cantest.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_cantest'>C_CAN_cantest</a></code></h4>
+<div class='docblock'><p>Test register</p>
+</div><h4 id='method.canbrpe' class='method'><code>fn <a href='#method.canbrpe' class='fnname'>canbrpe</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canbrpe.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canbrpe'>C_CAN_canbrpe</a></code></h4>
+<div class='docblock'><p>Baud rate prescaler extension register</p>
+</div><h4 id='method.canif1_cmdreq' class='method'><code>fn <a href='#method.canif1_cmdreq' class='fnname'>canif1_cmdreq</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif1_cmdreq.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif1_cmdreq'>C_CAN_canif1_cmdreq</a></code></h4>
+<div class='docblock'><p>Message interface  command request</p>
+</div><h4 id='method.canif2_cmdreq' class='method'><code>fn <a href='#method.canif2_cmdreq' class='fnname'>canif2_cmdreq</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_cmdreq.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_cmdreq'>C_CAN_canif2_cmdreq</a></code></h4>
+<div class='docblock'><p>Message interface  command request</p>
+</div><h4 id='method.canif1_cmdmsk_w' class='method'><code>fn <a href='#method.canif1_cmdmsk_w' class='fnname'>canif1_cmdmsk_w</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif1_cmdmsk_w.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif1_cmdmsk_w'>C_CAN_canif1_cmdmsk_w</a></code></h4>
+<div class='docblock'><p>Message interface command mask - write direction</p>
+</div><h4 id='method.canif2_cmdmsk_w' class='method'><code>fn <a href='#method.canif2_cmdmsk_w' class='fnname'>canif2_cmdmsk_w</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_cmdmsk_w.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_cmdmsk_w'>C_CAN_canif2_cmdmsk_w</a></code></h4>
+<div class='docblock'><p>Message interface command mask - write direction</p>
+</div><h4 id='method.canif1_cmdmsk_r' class='method'><code>fn <a href='#method.canif1_cmdmsk_r' class='fnname'>canif1_cmdmsk_r</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif1_cmdmsk_r.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif1_cmdmsk_r'>C_CAN_canif1_cmdmsk_r</a></code></h4>
+<div class='docblock'><p>Message interface  command mask - read direction</p>
+</div><h4 id='method.canif2_cmdmsk_r' class='method'><code>fn <a href='#method.canif2_cmdmsk_r' class='fnname'>canif2_cmdmsk_r</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_cmdmsk_r.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_cmdmsk_r'>C_CAN_canif2_cmdmsk_r</a></code></h4>
+<div class='docblock'><p>Message interface  command mask - read direction</p>
+</div><h4 id='method.canif1_msk1' class='method'><code>fn <a href='#method.canif1_msk1' class='fnname'>canif1_msk1</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif1_msk1.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif1_msk1'>C_CAN_canif1_msk1</a></code></h4>
+<div class='docblock'><p>Message interface 1 mask 1</p>
+</div><h4 id='method.canif2_msk1' class='method'><code>fn <a href='#method.canif2_msk1' class='fnname'>canif2_msk1</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_msk1.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_msk1'>C_CAN_canif2_msk1</a></code></h4>
+<div class='docblock'><p>Message interface 1 mask 1</p>
+</div><h4 id='method.canif1_msk2' class='method'><code>fn <a href='#method.canif1_msk2' class='fnname'>canif1_msk2</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif1_msk2.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif1_msk2'>C_CAN_canif1_msk2</a></code></h4>
+<div class='docblock'><p>Message interface 1 mask 2</p>
+</div><h4 id='method.canif2_msk2' class='method'><code>fn <a href='#method.canif2_msk2' class='fnname'>canif2_msk2</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_msk2.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_msk2'>C_CAN_canif2_msk2</a></code></h4>
+<div class='docblock'><p>Message interface 1 mask 2</p>
+</div><h4 id='method.canif1_arb1' class='method'><code>fn <a href='#method.canif1_arb1' class='fnname'>canif1_arb1</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif1_arb1.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif1_arb1'>C_CAN_canif1_arb1</a></code></h4>
+<div class='docblock'><p>Message interface 1 arbitration 1</p>
+</div><h4 id='method.canif2_arb1' class='method'><code>fn <a href='#method.canif2_arb1' class='fnname'>canif2_arb1</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_arb1.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_arb1'>C_CAN_canif2_arb1</a></code></h4>
+<div class='docblock'><p>Message interface 1 arbitration 1</p>
+</div><h4 id='method.canif1_arb2' class='method'><code>fn <a href='#method.canif1_arb2' class='fnname'>canif1_arb2</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif1_arb2.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif1_arb2'>C_CAN_canif1_arb2</a></code></h4>
+<div class='docblock'><p>Message interface 1 arbitration 2</p>
+</div><h4 id='method.canif2_arb2' class='method'><code>fn <a href='#method.canif2_arb2' class='fnname'>canif2_arb2</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_arb2.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_arb2'>C_CAN_canif2_arb2</a></code></h4>
+<div class='docblock'><p>Message interface 1 arbitration 2</p>
+</div><h4 id='method.canif1_mctrl' class='method'><code>fn <a href='#method.canif1_mctrl' class='fnname'>canif1_mctrl</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif1_mctrl.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif1_mctrl'>C_CAN_canif1_mctrl</a></code></h4>
+<div class='docblock'><p>Message interface 1 message control</p>
+</div><h4 id='method.canif2_mctrl' class='method'><code>fn <a href='#method.canif2_mctrl' class='fnname'>canif2_mctrl</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_mctrl.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl'>C_CAN_canif2_mctrl</a></code></h4>
+<div class='docblock'><p>Message interface 1 message control</p>
+</div><h4 id='method.canif1_da1' class='method'><code>fn <a href='#method.canif1_da1' class='fnname'>canif1_da1</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif1_da1.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif1_da1'>C_CAN_canif1_da1</a></code></h4>
+<div class='docblock'><p>Message interface 1 data A1</p>
+</div><h4 id='method.canif2_da1' class='method'><code>fn <a href='#method.canif2_da1' class='fnname'>canif2_da1</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_da1.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_da1'>C_CAN_canif2_da1</a></code></h4>
+<div class='docblock'><p>Message interface 1 data A1</p>
+</div><h4 id='method.canif1_da2' class='method'><code>fn <a href='#method.canif1_da2' class='fnname'>canif1_da2</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif1_da2.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif1_da2'>C_CAN_canif1_da2</a></code></h4>
+<div class='docblock'><p>Message interface 1 data A2</p>
+</div><h4 id='method.canif2_da2' class='method'><code>fn <a href='#method.canif2_da2' class='fnname'>canif2_da2</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_da2.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_da2'>C_CAN_canif2_da2</a></code></h4>
+<div class='docblock'><p>Message interface 1 data A2</p>
+</div><h4 id='method.canif1_db1' class='method'><code>fn <a href='#method.canif1_db1' class='fnname'>canif1_db1</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif1_db1.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif1_db1'>C_CAN_canif1_db1</a></code></h4>
+<div class='docblock'><p>Message interface 1 data B1</p>
+</div><h4 id='method.canif2_db1' class='method'><code>fn <a href='#method.canif2_db1' class='fnname'>canif2_db1</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_db1.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_db1'>C_CAN_canif2_db1</a></code></h4>
+<div class='docblock'><p>Message interface 1 data B1</p>
+</div><h4 id='method.canif1_db2' class='method'><code>fn <a href='#method.canif1_db2' class='fnname'>canif1_db2</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif1_db2.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif1_db2'>C_CAN_canif1_db2</a></code></h4>
+<div class='docblock'><p>Message interface 1 data B2</p>
+</div><h4 id='method.canif2_db2' class='method'><code>fn <a href='#method.canif2_db2' class='fnname'>canif2_db2</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_db2.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_db2'>C_CAN_canif2_db2</a></code></h4>
+<div class='docblock'><p>Message interface 1 data B2</p>
+</div><h4 id='method.cantxreq1' class='method'><code>fn <a href='#method.cantxreq1' class='fnname'>cantxreq1</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_cantxreq1.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_cantxreq1'>C_CAN_cantxreq1</a></code></h4>
+<div class='docblock'><p>Transmission request 1</p>
+</div><h4 id='method.cantxreq2' class='method'><code>fn <a href='#method.cantxreq2' class='fnname'>cantxreq2</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_cantxreq2.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_cantxreq2'>C_CAN_cantxreq2</a></code></h4>
+<div class='docblock'><p>Transmission request 2</p>
+</div><h4 id='method.cannd1' class='method'><code>fn <a href='#method.cannd1' class='fnname'>cannd1</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_cannd1.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_cannd1'>C_CAN_cannd1</a></code></h4>
+<div class='docblock'><p>New data 1</p>
+</div><h4 id='method.cannd2' class='method'><code>fn <a href='#method.cannd2' class='fnname'>cannd2</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_cannd2.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_cannd2'>C_CAN_cannd2</a></code></h4>
+<div class='docblock'><p>New data 2</p>
+</div><h4 id='method.canir1' class='method'><code>fn <a href='#method.canir1' class='fnname'>canir1</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canir1.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canir1'>C_CAN_canir1</a></code></h4>
+<div class='docblock'><p>Interrupt pending 1</p>
+</div><h4 id='method.canir2' class='method'><code>fn <a href='#method.canir2' class='fnname'>canir2</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canir2.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canir2'>C_CAN_canir2</a></code></h4>
+<div class='docblock'><p>Interrupt pending 2</p>
+</div><h4 id='method.canmsgv1' class='method'><code>fn <a href='#method.canmsgv1' class='fnname'>canmsgv1</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canmsgv1.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canmsgv1'>C_CAN_canmsgv1</a></code></h4>
+<div class='docblock'><p>Message valid 1</p>
+</div><h4 id='method.canmsgv2' class='method'><code>fn <a href='#method.canmsgv2' class='fnname'>canmsgv2</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canmsgv2.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canmsgv2'>C_CAN_canmsgv2</a></code></h4>
+<div class='docblock'><p>Message valid 2</p>
+</div><h4 id='method.canclkdiv' class='method'><code>fn <a href='#method.canclkdiv' class='fnname'>canclkdiv</a>() -&gt; &amp;'static mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canclkdiv.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canclkdiv'>C_CAN_canclkdiv</a></code></h4>
+<div class='docblock'><p>Can clock divider register</p>
+</div></div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../../";
+        window.currentCrate = "zinc_hal_lpc11xx";
+        window.playgroundUrl = "";
+    </script>
+    <script src="../../jquery.js"></script>
+    <script src="../../main.js"></script>
+    
+    <script defer src="../../search-index.js"></script>
+</body>
+</html>

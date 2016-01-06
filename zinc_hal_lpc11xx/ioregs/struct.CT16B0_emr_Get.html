@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `CT16B0_emr_Get` struct in crate `zinc_hal_lpc11xx`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, CT16B0_emr_Get">
+
+    <title>zinc_hal_lpc11xx::ioregs::CT16B0_emr_Get - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'><a href='../index.html'>zinc_hal_lpc11xx</a>::<wbr><a href='index.html'>ioregs</a></p><script>window.sidebarCurrent = {name: 'CT16B0_emr_Get', ty: 'struct', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content struct">
+<h1 class='fqn'><span class='in-band'>Struct <a href='../index.html'>zinc_hal_lpc11xx</a>::<wbr><a href='index.html'>ioregs</a>::<wbr><a class='struct' href=''>CT16B0_emr_Get</a></span><span class='out-of-band'><span id='render-detail'>
+            <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                [<span class='inner'>&#x2212;</span>]
+            </a>
+        </span><a id='src-4620' class='srclink' href='../../src/zinc_hal_lpc11xx/ioregs.rs.html#9720-9722' title='goto source code'>[src]</a></span></h1>
+<pre class='rust struct'>pub struct CT16B0_emr_Get {
+    // some fields omitted
+}</pre><div class='docblock'><p><code>EMR</code>: External Match Register (EMR). The EMR controls the match function and the external match pins CT16B0_MAT[2:0].</p>
+</div><h2 id='methods'>Methods</h2><h3 class='impl'><code>impl <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.CT16B0_emr_Get.html' title='zinc_hal_lpc11xx::ioregs::CT16B0_emr_Get'>CT16B0_emr_Get</a></code></h3><div class='impl-items'><h4 id='method.new' class='method'><code>fn <a href='#method.new' class='fnname'>new</a>(reg: &amp;<a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.CT16B0_emr.html' title='zinc_hal_lpc11xx::ioregs::CT16B0_emr'>CT16B0_emr</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.CT16B0_emr_Get.html' title='zinc_hal_lpc11xx::ioregs::CT16B0_emr_Get'>CT16B0_emr_Get</a></code></h4>
+<div class='docblock'><p>Create a getter reflecting the current value of the given register.</p>
+</div><h4 id='method.raw' class='method'><code>fn <a href='#method.raw' class='fnname'>raw</a>(&amp;self) -&gt; u32</code></h4>
+<div class='docblock'><p>Get the raw value of the register.</p>
+</div><h4 id='method.em0' class='method'><code>fn <a href='#method.em0' class='fnname'>em0</a>(&amp;self) -&gt; bool</code></h4>
+<div class='docblock'><p>Get value of <code>EM0</code> field: External Match 0. This bit reflects the state of output CT16B0_MAT0/CT16B1_MAT0, whether or not this output is connected to its pin. When a match occurs between the TC and MR0, this bit can either toggle, go LOW, go HIGH, or do nothing. Bits EMR[5:4] control the functionality of this output. This bit is driven to the CT16B0_MAT0/CT16B1_MAT0 pins if the match function is selected in the IOCON registers (0 = LOW, 1 = HIGH).</p>
+</div><h4 id='method.em1' class='method'><code>fn <a href='#method.em1' class='fnname'>em1</a>(&amp;self) -&gt; bool</code></h4>
+<div class='docblock'><p>Get value of <code>EM1</code> field: External Match 1. This bit reflects the state of output CT16B0_MAT1/CT16B1_MAT1, whether or not this output is connected to its pin. When a match occurs between the TC and MR1, this bit can either toggle, go LOW, go HIGH, or do nothing. Bits EMR[7:6] control the functionality of this output. This bit is driven to the CT16B0_MAT1/CT16B1_MAT1 pins if the match function is selected in the IOCON registers (0 = LOW, 1 = HIGH).</p>
+</div><h4 id='method.em2' class='method'><code>fn <a href='#method.em2' class='fnname'>em2</a>(&amp;self) -&gt; bool</code></h4>
+<div class='docblock'><p>Get value of <code>EM2</code> field: External Match 2. This bit reflects the state of output match channel 2, whether or not this output is connected to its pin. When a match occurs between the TC and MR2, this bit can either toggle, go LOW, go HIGH, or do nothing. Bits EMR[9:8] control the functionality of this output. Note that on counter/timer 0 this match channel is not pinned out. This bit is driven to the CT16B1_MAT2 pin if the match function is selected in the IOCON registers (0 = LOW, 1 = HIGH).</p>
+</div><h4 id='method.em3' class='method'><code>fn <a href='#method.em3' class='fnname'>em3</a>(&amp;self) -&gt; bool</code></h4>
+<div class='docblock'><p>Get value of <code>EM3</code> field: External Match 3. This bit reflects the state of output of match channel 3. When a match occurs between the TC and MR3, this bit can either toggle, go LOW, go HIGH, or do nothing. Bits EMR[11:10] control the functionality of this output. There is no output pin available for this channel on either of the 16-bit timers.</p>
+</div><h4 id='method.emc0' class='method'><code>fn <a href='#method.emc0' class='fnname'>emc0</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.CT16B0_emr_emc0.html' title='zinc_hal_lpc11xx::ioregs::CT16B0_emr_emc0'>CT16B0_emr_emc0</a></code></h4>
+<div class='docblock'><p>Get value of <code>EMC0</code> field: External Match Control 0. Determines the functionality of External Match 0.</p>
+</div><h4 id='method.emc1' class='method'><code>fn <a href='#method.emc1' class='fnname'>emc1</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.CT16B0_emr_emc1.html' title='zinc_hal_lpc11xx::ioregs::CT16B0_emr_emc1'>CT16B0_emr_emc1</a></code></h4>
+<div class='docblock'><p>Get value of <code>EMC1</code> field: External Match Control 1. Determines the functionality of External Match 1.</p>
+</div><h4 id='method.emc2' class='method'><code>fn <a href='#method.emc2' class='fnname'>emc2</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.CT16B0_emr_emc2.html' title='zinc_hal_lpc11xx::ioregs::CT16B0_emr_emc2'>CT16B0_emr_emc2</a></code></h4>
+<div class='docblock'><p>Get value of <code>EMC2</code> field: External Match Control 2. Determines the functionality of External Match 2.</p>
+</div><h4 id='method.emc3' class='method'><code>fn <a href='#method.emc3' class='fnname'>emc3</a>(&amp;self) -&gt; <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.CT16B0_emr_emc3.html' title='zinc_hal_lpc11xx::ioregs::CT16B0_emr_emc3'>CT16B0_emr_emc3</a></code></h4>
+<div class='docblock'><p>Get value of <code>EMC3</code> field: External Match Control 3. Determines the functionality of External Match 3.</p>
+</div></div><h2 id='implementations'>Trait Implementations</h2><h3 class='impl'><code>impl <a class='trait' href='https://doc.rust-lang.org/nightly/core/marker/trait.Copy.html' title='core::marker::Copy'>Copy</a> for <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.CT16B0_emr_Get.html' title='zinc_hal_lpc11xx::ioregs::CT16B0_emr_Get'>CT16B0_emr_Get</a></code></h3><div class='impl-items'></div><h3 id='derived_implementations'>Derived Implementations </h3><h3 class='impl'><code>impl <a class='trait' href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html' title='core::clone::Clone'>Clone</a> for <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.CT16B0_emr_Get.html' title='zinc_hal_lpc11xx::ioregs::CT16B0_emr_Get'>CT16B0_emr_Get</a></code></h3><div class='impl-items'><h4 id='method.clone' class='method'><code>fn <a href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone' class='fnname'>clone</a>(&amp;self) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.CT16B0_emr_Get.html' title='zinc_hal_lpc11xx::ioregs::CT16B0_emr_Get'>CT16B0_emr_Get</a></code></h4>
+<h4 id='method.clone_from' class='method'><code>fn <a href='https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html#method.clone_from' class='fnname'>clone_from</a>(&amp;mut self, source: &amp;Self)</code></h4>
+</div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../../";
+        window.currentCrate = "zinc_hal_lpc11xx";
+        window.playgroundUrl = "";
+    </script>
+    <script src="../../jquery.js"></script>
+    <script src="../../main.js"></script>
+    
+    <script defer src="../../search-index.js"></script>
+</body>
+</html>

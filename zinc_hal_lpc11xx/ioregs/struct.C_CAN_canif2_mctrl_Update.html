@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `C_CAN_canif2_mctrl_Update` struct in crate `zinc_hal_lpc11xx`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, C_CAN_canif2_mctrl_Update">
+
+    <title>zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_Update - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'><a href='../index.html'>zinc_hal_lpc11xx</a>::<wbr><a href='index.html'>ioregs</a></p><script>window.sidebarCurrent = {name: 'C_CAN_canif2_mctrl_Update', ty: 'struct', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content struct">
+<h1 class='fqn'><span class='in-band'>Struct <a href='../index.html'>zinc_hal_lpc11xx</a>::<wbr><a href='index.html'>ioregs</a>::<wbr><a class='struct' href=''>C_CAN_canif2_mctrl_Update</a></span><span class='out-of-band'><span id='render-detail'>
+            <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                [<span class='inner'>&#x2212;</span>]
+            </a>
+        </span><a id='src-24074' class='srclink' href='../../src/zinc_hal_lpc11xx/ioregs.rs.html#48763-48768' title='goto source code'>[src]</a></span></h1>
+<pre class='rust struct'>pub struct C_CAN_canif2_mctrl_Update&lt;'a&gt; {
+    // some fields omitted
+}</pre><div class='docblock'><p>Updater for <code>CANIF2_MCTRL</code> register.</p>
+</div><h2 id='methods'>Methods</h2><h3 class='impl'><code>impl&lt;'a&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_mctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_Update'>C_CAN_canif2_mctrl_Update</a>&lt;'a&gt;</code></h3><div class='impl-items'><h4 id='method.new' class='method'><code>fn <a href='#method.new' class='fnname'>new</a>(reg: &amp;'a <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_mctrl.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl'>C_CAN_canif2_mctrl</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_mctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_Update'>C_CAN_canif2_mctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Create a new updater.</p>
+</div><h4 id='method.new_ignoring_state' class='method'><code>fn <a href='#method.new_ignoring_state' class='fnname'>new_ignoring_state</a>(reg: &amp;'a <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_mctrl.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl'>C_CAN_canif2_mctrl</a>) -&gt; <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_mctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_Update'>C_CAN_canif2_mctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Create a new updater that ignores current state.</p>
+</div><h4 id='method.set_dlc_3_0' class='method'><code>fn <a href='#method.set_dlc_3_0' class='fnname'>set_dlc_3_0</a>&lt;'b&gt;(&amp;'b mut self, new_value: u32) -&gt; &amp;'b mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_mctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_Update'>C_CAN_canif2_mctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>DLC_3_0</code> field.</p>
+</div><h4 id='method.set_eob' class='method'><code>fn <a href='#method.set_eob' class='fnname'>set_eob</a>&lt;'b&gt;(&amp;'b mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.C_CAN_canif2_mctrl_eob.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_eob'>C_CAN_canif2_mctrl_eob</a>) -&gt; &amp;'b mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_mctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_Update'>C_CAN_canif2_mctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>EOB</code> field.</p>
+</div><h4 id='method.set_txrqst' class='method'><code>fn <a href='#method.set_txrqst' class='fnname'>set_txrqst</a>&lt;'b&gt;(&amp;'b mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.C_CAN_canif2_mctrl_txrqst.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_txrqst'>C_CAN_canif2_mctrl_txrqst</a>) -&gt; &amp;'b mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_mctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_Update'>C_CAN_canif2_mctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>TXRQST</code> field.</p>
+</div><h4 id='method.set_rmten' class='method'><code>fn <a href='#method.set_rmten' class='fnname'>set_rmten</a>&lt;'b&gt;(&amp;'b mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.C_CAN_canif2_mctrl_rmten.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_rmten'>C_CAN_canif2_mctrl_rmten</a>) -&gt; &amp;'b mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_mctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_Update'>C_CAN_canif2_mctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>RMTEN</code> field.</p>
+</div><h4 id='method.set_rxie' class='method'><code>fn <a href='#method.set_rxie' class='fnname'>set_rxie</a>&lt;'b&gt;(&amp;'b mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.C_CAN_canif2_mctrl_rxie.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_rxie'>C_CAN_canif2_mctrl_rxie</a>) -&gt; &amp;'b mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_mctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_Update'>C_CAN_canif2_mctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>RXIE</code> field.</p>
+</div><h4 id='method.set_txie' class='method'><code>fn <a href='#method.set_txie' class='fnname'>set_txie</a>&lt;'b&gt;(&amp;'b mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.C_CAN_canif2_mctrl_txie.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_txie'>C_CAN_canif2_mctrl_txie</a>) -&gt; &amp;'b mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_mctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_Update'>C_CAN_canif2_mctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>TXIE</code> field.</p>
+</div><h4 id='method.set_umask' class='method'><code>fn <a href='#method.set_umask' class='fnname'>set_umask</a>&lt;'b&gt;(&amp;'b mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.C_CAN_canif2_mctrl_umask.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_umask'>C_CAN_canif2_mctrl_umask</a>) -&gt; &amp;'b mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_mctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_Update'>C_CAN_canif2_mctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>UMASK</code> field.</p>
+</div><h4 id='method.set_intpnd' class='method'><code>fn <a href='#method.set_intpnd' class='fnname'>set_intpnd</a>&lt;'b&gt;(&amp;'b mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.C_CAN_canif2_mctrl_intpnd.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_intpnd'>C_CAN_canif2_mctrl_intpnd</a>) -&gt; &amp;'b mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_mctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_Update'>C_CAN_canif2_mctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>INTPND</code> field.</p>
+</div><h4 id='method.set_msglst' class='method'><code>fn <a href='#method.set_msglst' class='fnname'>set_msglst</a>&lt;'b&gt;(&amp;'b mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.C_CAN_canif2_mctrl_msglst.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_msglst'>C_CAN_canif2_mctrl_msglst</a>) -&gt; &amp;'b mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_mctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_Update'>C_CAN_canif2_mctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>MSGLST</code> field.</p>
+</div><h4 id='method.set_newdat' class='method'><code>fn <a href='#method.set_newdat' class='fnname'>set_newdat</a>&lt;'b&gt;(&amp;'b mut self, new_value: <a class='enum' href='../../zinc_hal_lpc11xx/ioregs/enum.C_CAN_canif2_mctrl_newdat.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_newdat'>C_CAN_canif2_mctrl_newdat</a>) -&gt; &amp;'b mut <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_mctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_Update'>C_CAN_canif2_mctrl_Update</a>&lt;'a&gt;</code></h4>
+<div class='docblock'><p>Set value of <code>NEWDAT</code> field.</p>
+</div><h4 id='method.done' class='method'><code>fn <a href='#method.done' class='fnname'>done</a>(self)</code></h4>
+<div class='docblock'><p>Commit changes to register.</p>
+</div></div><h2 id='implementations'>Trait Implementations</h2><h3 class='impl'><code>impl&lt;'a&gt; <a class='trait' href='https://doc.rust-lang.org/nightly/core/ops/trait.Drop.html' title='core::ops::Drop'>Drop</a> for <a class='struct' href='../../zinc_hal_lpc11xx/ioregs/struct.C_CAN_canif2_mctrl_Update.html' title='zinc_hal_lpc11xx::ioregs::C_CAN_canif2_mctrl_Update'>C_CAN_canif2_mctrl_Update</a>&lt;'a&gt;</code></h3><div class='docblock'><p>This performs the register update.</p>
+</div><div class='impl-items'><h4 id='method.drop' class='method'><code>fn <a href='https://doc.rust-lang.org/nightly/core/ops/trait.Drop.html#method.drop' class='fnname'>drop</a>(&amp;mut self)</code></h4>
+</div></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../../";
+        window.currentCrate = "zinc_hal_lpc11xx";
+        window.playgroundUrl = "";
+    </script>
+    <script src="../../jquery.js"></script>
+    <script src="../../main.js"></script>
+    
+    <script defer src="../../search-index.js"></script>
+</body>
+</html>

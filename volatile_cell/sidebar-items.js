@@ -1,0 +1,1 @@
+initSidebarItems({"macro":[["expect_replayer_valid!",""],["expect_volatile_read!",""],["expect_volatile_write!",""],["init_replayer!",""]],"struct":[["VolatileCell","This structure is used to represent a hardware register. It is mostly used by the ioreg family of macros."]]});
